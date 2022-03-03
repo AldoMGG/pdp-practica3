@@ -31,5 +31,5 @@ $services |% {
     Write-Host "Setting ACR build $bname ($bimg)"    
     az acr build-task create --registry $acrName --name $bname --image ${bimg}:$gitBranch --context $gitContext --branch $gitBranch --git-access-token $patToken --file $bfile
 }
-<#Prueba3 - Aldo Guajardo - 728119#>
+<#Prueba3 - Aldo Guajardo - 728119 - 1#>
 # Basket.API
